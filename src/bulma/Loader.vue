@@ -17,10 +17,6 @@ export default {
     components: { Fade },
 
     props: {
-        show: {
-            type: Boolean,
-            default: false,
-        },
         color: {
             type: String,
             default: '#f44336',
@@ -36,12 +32,20 @@ export default {
         },
     },
 
+    data: () => ({
+        show: false,
+    }),
+
     computed: {
         borderColor() {
             return {
                 'border-color': `${this.color}`,
             };
         },
+    },
+
+    mounted() {
+        this.show = true;
     },
 };
 
