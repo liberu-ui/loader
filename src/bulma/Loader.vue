@@ -1,6 +1,6 @@
 <template>
     <fade>
-        <div class="overlay is-overlay animated"
+        <div class="overlay is-overlay"
             :class="{ 'is-opaque': !transparent }"
             v-if="show">
             <div :class="['loader', `is-${size}`]"
