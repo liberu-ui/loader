@@ -27,7 +27,7 @@ export default {
         },
         size: {
             type: String,
-            default: 'is-medium',
+            default: 'medium',
             validator: v => ['small', 'medium', 'large'].includes(v),
         },
         transparent: {
