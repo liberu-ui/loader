@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/laravel-enso/loader.git"
+    "url": "git+https://github.com/enso-ui/loader.git"
   },
   "keywords": [
     "loader",
@@ -18,9 +18,9 @@
   "author": "Adrian Ocneanu <aocneanu@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/laravel-enso/loader/issues"
+    "url": "https://github.com/enso-ui/loader/issues"
   },
-  "homepage": "https://github.com/laravel-enso/loader#readme",
+  "homepage": "https://github.com/enso-ui/loader#readme",
   "devDependencies": {
     "@vue/eslint-config-airbnb": "^4.0.0",
     "babel-eslint": "^10.0.1",
