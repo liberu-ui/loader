@@ -2,7 +2,7 @@
     <fade>
         <div class="overlay is-overlay"
             :class="{ 'is-opaque': !transparent }"
-            v-if="show">
+            v-if="visible">
             <div :class="['loader', `is-${size}`]"
                 :style="borderColor"/>
         </div>
@@ -10,10 +10,11 @@
 </template>
 
 <script>
-
 import { Fade } from '@enso-ui/transitions';
 
 export default {
+    name: 'Loader',
+
     components: { Fade },
 
     props: {
@@ -33,7 +34,7 @@ export default {
     },
 
     data: () => ({
-        show: false,
+        visible: false,
     }),
 
     computed: {
@@ -45,10 +46,9 @@ export default {
     },
 
     mounted() {
-        this.show = true;
+        this.visible = true;
     },
 };
-
 </script>
 
 <style lang="scss">
