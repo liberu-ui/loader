@@ -1,22 +1,44 @@
 # Loader
 
-[![License](https://poser.pugx.org/laravel-enso/loader/license)](https://packagist.org/packages/laravel-enso/loader)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/loader/version)](https://packagist.org/packages/laravel-enso/loader)
+![npm license](https://img.shields.io/npm/l/@enso-ui/loader.svg) 
+![npm download](https://img.shields.io/npm/dm/@enso-ui/loader.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/loader.svg) 
+![GitHub issues](https://img.shields.io/github/issues/enso-ui/loader.svg) 
+![npm version](https://img.shields.io/npm/v/@enso-ui/loader.svg) 
 
 Simple loader
 
-### Features
+## Usage
+The component can be used outside of the Enso ecosystem.
 
-- soon
+### Demo
 
-### Configuration & Usage
+For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
 
-- soon
+Check the full documentation at  [docs.laravel-enso.com](https://docs.laravel-enso.com).### Installation
 
-### Contributions
+### Installation
+
+Install the package:
+```
+npm i @enso-ui/loader
+```
+Import the desired component(s):
+```js
+import Loader from '@enso-ui/loader/bulma';
+```
+
+### Exports
+
+`@enso-ui/loader/bulma`:
+- `Loader`
+
+## Contributions
 
 are welcome. Pull requests are great, but issues are good too.
 
-### License
+Thank you to all the people who already contributed to Enso!
 
-This package is released under the MIT license.
+## License
+
+[ISC](https://opensource.org/licenses/ISC)
