@@ -54,6 +54,7 @@ export default {
 <style lang="scss">
     .overlay.is-overlay {
         display: flex;
+        border-radius: inherit;
 
         .loader {
             margin: auto;
