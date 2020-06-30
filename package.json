@@ -35,7 +35,7 @@
     "eslint-plugin-vue": "^6.0.0"
   },
   "dependencies": {
-    "@enso-ui/transitions": "1.0.x",
+    "@enso-ui/transitions": "^1.0",
     "bulma": "^0.8.0",
     "vue": "^2.5.16"
   }
