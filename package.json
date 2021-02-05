@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@enso-ui/transitions": "^1.0",
-    "bulma": "^0.8.0",
+    "bulma": "^0.9.0",
     "vue": "^2.5.16"
   }
 }
