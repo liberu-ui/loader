@@ -1,5 +1,5 @@
 {
-  "name": "@enso-ui/loader",
+  "name": "@liberu-ui/loader",
   "version": "3.0.5",
   "description": "Simple loader",
   "main": "index.js",
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/enso-ui/loader#readme",
   "dependencies": {
-    "@enso-ui/transitions": "^2.0",
+    "@liberu-ui/transitions": "^2.0",
     "bulma": "^0.9.0",
     "vue": "^3.0"
   },
