@@ -1,10 +1,10 @@
 # Loader
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/loader.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/loader.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/loader.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/loader.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/loader.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/loader.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/loader.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/loader.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/loader.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/loader.svg) 
 
 Simple loader
 
